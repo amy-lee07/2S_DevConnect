@@ -1,0 +1,81 @@
+main{
+    background-color:#8d6cb9 ;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.container-flex-publi{
+    background-color: rgb(216, 186, 232);
+    width: 90%;
+    max-width: 900px;
+    height: 700px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+
+}
+#story{
+    /* background-color: rgb(255, 47, 245); */
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+    overflow-x: scroll;
+
+
+}
+#story::-webkit-scrollbar{
+    width: ;
+}
+.card-story{
+     /* width: 100%;   */
+      /* max-width: 100px;  */
+    /* background-color: chartreuse;  */
+
+}
+.card-story > a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.card-story > a > img{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-fit: center;
+}
+.card-story > a > span{
+    color: var(--cor-preto);
+    font-size: var(--tamanho-fonte-sm);
+    text-transform: lowercase;
+}
+
+#cadastro-publi{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 3%;
+    
+}
+#cadastro-publi > h2{
+    font-size: var(--tamanho-fonte-lg);
+    color: var(--cor-roxo);
+}
+#cadastro-publi > form >textarea{
+    width: 80%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);~
+    resize: none;
+    padding: 10px;
+    color: var(--cor-roxo);
+    font-size: var(--cor-preto);
+}
