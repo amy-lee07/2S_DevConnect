@@ -30,6 +30,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    outline-color: blueviolet;
 }
 body{
     background-color: var(--cor-cinza2);
@@ -42,17 +43,27 @@ h1{
 .estilo-formulario{
     border: var(--borda);
     width: 100%;
-    background-color: ##f7f0f0;
+    background-color: #f0f0f0;
 }
 #campo-upload {
     display: none;
+   
 }
 
-label{
+#texto-upload{
     display: inline-block;
     width: 100%;
-    padding: 10px;
+    max-width: 300px;
+    min-height: 35px;
+    padding: 5px;
+    background-color: #855aa8;
+    color: #fafafa;
+    text-align: center;
+    font-weight: 600;
+    border-radius: var(--borda-arredondada);
+
 }
+
 input{
     width: 100%;
     height: 30px;
@@ -61,7 +72,7 @@ input{
 }
 
 #cabecalho{
-    background-color: var(--cor-roxo3);
+    background-color: #f8e9ff;
     width: 100%;
     height: 80px;
     display: flex;
@@ -93,14 +104,16 @@ input{
     display: flex;
     align-items: center;
 }
-#foto-perfil{
-    width: 35px;
-    height: 35px;
+.foto-perfil{
+    width: 45px;
+    height: 45px;
     object-fit: cover;
     object-position: center;
     border-radius: 50%;
 }
 
+
+    
 
  @media only screen and (max-width: 485px) {
     #logo-mobile{
