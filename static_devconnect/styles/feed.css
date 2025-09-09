@@ -1,5 +1,5 @@
-main{
-    background-color:#f8e9ff ;
+main {
+     background-color: #f8e9ff; 
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -7,8 +7,9 @@ main{
     margin-top: 10px;
 
 }
-.container-flex-publi{
-    background-color: rgb(216, 186, 232);
+
+.container-flex-publi {
+    /* background-color: rgb(216, 186, 232); */
     width: 90%;
     max-width: 900px;
     display: flex;
@@ -16,7 +17,8 @@ main{
     flex-direction: column;
 
 }
-#story{
+
+#story {
     /* background-color: rgb(255, 47, 245); */
     /* width: 100%; */
     display: flex;
@@ -28,16 +30,19 @@ main{
 
 
 }
-#story::-webkit-scrollbar{
-    width:0;
+
+#story::-webkit-scrollbar {
+    width: 0;
 }
-.card-story{
-     /* width: 100%;   */
-      /* max-width: 100px;  */
+
+.card-story {
+    /* width: 100%;   */
+    /* max-width: 100px;  */
     /* background-color: chartreuse;  */
 
 }
-.card-story > a {
+
+.card-story>a {
     text-decoration: none;
     display: flex;
     flex-direction: column;
@@ -45,33 +50,37 @@ main{
     align-items: center;
     gap: 5px;
 }
-.card-story > a > img{
+
+.card-story>a>img {
     border-radius: 50%;
     width: 60px;
     height: 60px;
     object-fit: cover;
     object-fit: center;
 }
-.card-story > a > span{
+
+.card-story>a>span {
     color: var(--cor-preto);
     font-size: var(--tamanho-fonte-sm);
     text-transform: lowercase;
 }
 
-#cadastro-publi{
+#cadastro-publi {
     display: flex;
     flex-direction: column;
     gap: 30px;
     padding: 3%;
     max-width: 100%;
     background-color: white;
-    
+
 }
-#cadastro-publi > h2{
+
+#cadastro-publi>h2 {
     font-size: var(--tamanho-fonte-lg);
     color: var(--cor-roxo);
 }
-#cadastro-publi > form >textarea{
+
+#cadastro-publi>form>textarea {
     width: 100%;
     height: 80px;
     background-color: #f0eded;
@@ -80,15 +89,15 @@ main{
     color: var(--cor-roxo);
     font-size: var(--cor-preto);
     border: var(--borda);
-    
+
 }
 
-#cadastro-publi > form >textarea::placeholder{
+#cadastro-publi>form>textarea::placeholder {
     color: rgb(196, 153, 236);
 
 }
 
-#cadastro-publi > form > footer{
+#cadastro-publi>form>footer {
     /* background-color: aqua; */
     display: flex;
     justify-content: flex-end;
@@ -97,23 +106,27 @@ main{
     flex-wrap: wrap;
     margin-top: 30px;
 }
-.formulario-botao-verde{
+
+.formulario-botao-verde {
     width: 100%;
     max-width: 135px;
     height: 35px;
 }
-#publicacoes{
+
+#publicacoes {
     background-color: white;
     width: 100%;
     height: 600px;
 
 }
-.card-publi{
+
+.card-publi {
     width: 100%;
     height: 400px;
     background-color: rgb(255, 255, 255);
 }
-.card-publi > header{
+
+.card-publi>header {
     /* height: 80px; */
     background-color: white;
     display: flex;
@@ -121,7 +134,8 @@ main{
     padding: 3%;
 
 }
-.card-publi > header > a{
+
+.card-publi>header>a {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -130,58 +144,74 @@ main{
     text-decoration: none;
 
 }
-.card-publi > figure{
+
+.card-publi>figure {
     width: 100%;
-    background-color: white;
+     background-color: white; 
     display: flex;
     flex-direction: column;
-    
+
 }
-.imagem-publicacao{
+
+.imagem-publicacao {
     object-fit: cover;
     object-position: center;
     width: 100%;
     height: 346px;
 }
-.descricao-publicacao{
+
+.descricao-publicacao {
     display: flex;
     align-items: center;
     gap: 5px;
     font-size: var(--tamanho-fonte-lg);
     font-weight: 500;
     font-weight: 500;
-    padding:0 3% ;
+    padding: 0 3%;
     order: 2;
+    flex-wrap: wrap;
 
 }
-.descricao-publicacao > p{
+
+.descricao-publicacao>p {
     font-size: var(--tamanho-fonte-sm);
     font-weight: 400;
 }
-.interacoes-publicacao{
-    background-color: white;
+
+.interacoes-publicacao {
+    background-color: white; 
     width: 81px;
     align-items: center;
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
-    margin:15px 3% ;
+    margin: 15px 3%;
 }
-.interacoes-publicacao > button > img{
+
+.interacoes-publicacao>button>img {
     height: 31px;
     width: 31px;
 }
-.interacoes-publicacao > button{
+
+.interacoes-publicacao>button {
     border: none;
     background-color: transparent;
     cursor: pointer;
 }
-.interacoes-publicacao > span{
+
+.interacoes-publicacao>span {
     font-size: var(--tamanho-fonte-sm);
     font-weight: 300;
     color: #000000;
 
 }
-.card-publi > button{
+
+.card-publi>button {
     margin: 15px 3%;
+    background-color: transparent;
+    border: none;
+    font-size: var(--tamanho-fonte-sm);
+    font-weight: 400;
+    color: #8b8b8b;
+    cursor: pointer;
 }
